@@ -5,10 +5,10 @@ const StoreController = require('./app/controller/StoreController');
 
 const ParamsMiddlewares = require('./app/middleware/params');
 
-routes.post('/store', StoreController.register);
+routes.post('/V1/stores', StoreController.register);
 
 routes.use(ParamsMiddlewares);
 
-routes.get('/store', StoreController.index);
+routes.get('/V1/stores', StoreController.index);
 
 module.exports = routes;
