@@ -18,6 +18,9 @@ Iniciando a aplicação
 API
 Tendo o Node instalado na máquina, abra o terminal na pasta e digite o seguinte comando: npm run start ou yarn start. Para popular o banco de dados, após a inicialização, basta chamar a rota post `http://localhost:3333/V1/stores` usando o Postman ou Insomnia.
 
+Apos puxar a rota get `http://localhost:3333/V1/stores` sera preciso passar o query.params location[lat] e location[long] para funcionamento do mesmo.
+Exemplo do link da rota com os query.params: `http://localhost:3333/V1/stores?location%5Blat%5D=-23.547232&location%5Blong%5D=-46.645371`
+
 ## Comentarios de desenvolvimento
 
 ##### API
