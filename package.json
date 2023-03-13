@@ -14,7 +14,7 @@
     "sequelize": "^6.21.1",
     "sequelize-cli": "^6.4.1",
     "sqlite": "^4.1.1",
-    "sqlite3": "^5.0.8",
+    "sqlite3": "^5.1.5",
     "yup": "^0.32.11"
   }
 }
